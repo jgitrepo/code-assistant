@@ -20,7 +20,7 @@ A drop-in, full-stack capstone: **React** frontend + **FastAPI (async)** backend
 [ React UI ] --fetch--> [ FastAPI ] --async httpx--> [ Hugging Face Inference ]
      |                         |                               |
      |                         +-- local static analysis        +-- Qwen3 / DeepSeek 3.1
-     +-- model selection       +-- TTL cache (45s)              +-- bearer token auth
+     +-- model selection       +-- TTL cache (45s)              
 
 ## Steps for the backend to start
 
