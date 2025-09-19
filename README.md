@@ -26,10 +26,11 @@ A drop-in, full-stack capstone: **React** frontend + **FastAPI (async)** backend
 
 cd backend
 copy .env.example .env
-# Edit .env to set:
+# Add/Edit .env to set:
 #   HF_API_TOKEN=hf_xxx
-#   QWEN3_MODEL=Qwen/Qwen2.5-Coder-7B-Instruct
-#   DEEPSEEK31_MODEL=deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct
+# QWEN3_MODEL=Qwen/Qwen3-Coder-30B-A3B-Instruct:nebius
+# DEEPSEEK31_MODEL=deepseek-ai/DeepSeek-V3.1
+# CORS_ORIGIN=http://127.0.0.1:5173
 
 py -m venv .venv
 .\.venv\Scripts\activate
@@ -53,7 +54,7 @@ Backend: run behind a production ASGI server (e.g., uvicorn --workers 2), fronte
 Add auth (JWT/OAuth) and rate-limiting for multi-user scenarios.
 
 
-## Steps post building the scaffolding include the code.
+## Steps post-building the scaffolding include the code.
 
 cd C:\Users\A708269\Downloads\code-assistant\backend
 pip install cachetools
