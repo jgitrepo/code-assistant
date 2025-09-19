@@ -61,7 +61,7 @@ pip install cachetools
 
 ## Screenshots
 
-1. Lading page ![Lading page](images/landing.png)
-2. Explain ![Explain](images/on-click-of-Explain.png)
-3. Analyze ![Analyze](images/on-click-of-Analyze-Lint-DRY.png)
-4. AI Refactor ![AI Refactor](images/on-click-of-AI Refactor-Ideas.png)
+![Lading page](images/landing.png)
+![Explain](images/on-click-of-Explain.png)
+![Analyze](images/on-click-of-Analyze-Lint-DRY.png)
+![AI Refactor](images/on-click-of-AI Refactor-Ideas.png)
